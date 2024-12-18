@@ -31,27 +31,15 @@ function updateDigit(element, newValue) {
     }
 }
 
-// Remove morph-in class after animation to reset state
-document.querySelectorAll('.digit').forEach(digit => {
-    digit.addEventListener('transitionend', () => {
-        digit.classList.remove('morph-in');
-    });
-});
-
 // Start the clock
 setInterval(updateClock, 1000);
 updateClock();
 
+document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.querySelector('.toggle');
+    const menu = document.querySelector('.menu');
 
-// Remove fade-in class after animation to reset state
-document.querySelectorAll('.digit').forEach(digit => {
-    digit.addEventListener('transitionend', () => {
-        digit.classList.remove('fade-in');
+    toggleButton.addEventListener('click', () => {
+        menu.classList.toggle('opened');
     });
 });
-
-// Start the clock
-setInterval(updateClock, 1000);
-updateClock();
-
-
