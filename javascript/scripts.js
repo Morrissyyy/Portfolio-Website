@@ -53,3 +53,5 @@ document.querySelectorAll('.digit').forEach(digit => {
 // Start the clock
 setInterval(updateClock, 1000);
 updateClock();
+
+
