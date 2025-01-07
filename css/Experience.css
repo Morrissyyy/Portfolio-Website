@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+.page-title {
+    font-family: "Afacad", sans-serif;
+    font-size: 90px;
+    color: #fff;
+    position: absolute;
+    left: 156px;
+    top: 185px;
+    margin: 0;
+}
+
+.project-gallery {
+    display: flex;
+    gap: 68px;
+    position: absolute;
+    top: 332px;
+    left: 0;
+    z-index: 10;
+}
+
+.project-image {
+    width: 310px;
+    height: 510px;
+    object-fit: cover;
+    border-radius: 5px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, transform 0.5s ease;
+}
+
+
+.project-image:nth-of-type(4) {
+    box-sizing: border-box;
+    outline: 2px solid #0E6ADE;
+    outline-offset: -2px;
+    opacity: 1;
+}
+
+.project-image:nth-of-type(1) {
+    opacity: 0.3;
+}
+
+.project-image:nth-of-type(3) {
+    opacity: 0.7;
+}
+
+.project-title {
+    font-family: "Afacad", sans-serif;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    z-index: 10;
+    margin: 0;
+    opacity: 0.3;
+    transition: opacity 0.3s ease, transform 0.5s ease, color 0.3s ease, text-decoration 0.3s ease;
+    display: inline-block;
+    overflow: hidden
+}
+
+.project-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #0E6ADE;
+    padding-top: 2px;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.project-title:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+#project1 {
+    left: 15px;
+    top: 790px;
+}
+
+#project2 {
+    left: 400px;
+    top: 790px;
+}
+
+#project3 {
+    left: 775px;
+    top: 790px;
+}
+
+#project4 {
+    left: 1170px;
+    top: 790px;
+    opacity: 1;
+}
+
+.project-title:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    color: #0E6ADE;
+}
+
+.main-content {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.main-content.fade-out {
+    opacity: 0;
+}

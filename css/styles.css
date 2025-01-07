@@ -40,23 +40,23 @@ body {
     transform: translateX(-50%);
     top: 35px;
     display: flex;
-    gap: 5px; /* Optional spacing */
+    gap: 5px;
 }
 
 .digit {
-    display: inline-block; /* To isolate each digit for animations */
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth morphing */
-    transform-origin: center; /* Pivot for scaling or flipping */
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center;
 }
 
 .digit.morph-out {
-    transform: scaleY(0); /* Shrinks the digit vertically */
-    opacity: 0; /* Fades out */
+    transform: scaleY(0);
+    opacity: 0;
 }
 
 .digit.morph-in {
-    transform: scaleY(1); /* Grows back to full size */
-    opacity: 1; /* Fades in */
+    transform: scaleY(1);
+    opacity: 1;
 }
 
 .toggle {
@@ -233,6 +233,7 @@ body {
     width: 300px;
     height: 100%;
     display: flex;
+    z-index: 1;
     transition: right 0.3s ease;
     justify-content: center;
     align-items: center;
