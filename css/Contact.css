@@ -1,99 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
-/*.contact-page {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.contact-container {
-    color: #f4f4f4;
-    padding: 40px;
-    margin-right: 10px;
-    margin-left: 200px;
-    border-radius: 5px;
-    max-width: 500px;
-    width: 100%;
-}
-
-.contact-container h1 {
-    font-size: 3rem;
-    text-align: center;
-}
-
-.contact-container label {
-    margin-top: 20px;
-}
-
-.contact-container input,
-.contact-container textarea {
-    width: 100%;
-    margin-bottom: 2px;
-    padding: 10px;
-    border: none;
-    border-bottom: 2px solid #03a9f4;
-    border-radius: 0;
-    background: transparent;
-    color: #f4f4f4;
-    font-size: 1.2rem;
-}
-
-.contact-container textarea {
-    resize: none;
-    min-height: 100px;
-}
-
-.contact-container button {
-    width: 100%;
-    padding: 15px;
-    background: #03a9f4;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: background 0.3s;
-}
-
-.contact-container button:hover {
-    background: #03a9f4;
-}
-
-.map-container iframe {
-    border-radius: 5px;
-}
-
-.map-container {
-    width: 50%;
-    margin-top: 90px;
-    margin-right: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-} */
-
 .form-container {
     position: absolute;
     top: 180px;
-    left: 476px;
+    left: 350px;
     display: flex;
     flex-direction: column;
-    gap: 50px; /* Maintain spacing between fields */
+    gap: 25px;
 }
 
 .input-container {
     position: relative;
-    width: 484px;
+    width: 450px;
 }
 
 .name-input,
 .email-input {
     width: 100%;
     font-family: "Afacab", sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+    color: rgba(255, 255, 255, 0.5);
     background: none;
     border: none;
     outline: none;
@@ -102,28 +29,76 @@
 
 .input-underline {
     position: absolute;
-    bottom: -10px; /* Place the underline slightly below the input */
+    bottom: -10px;
     width: 100%;
     height: 3px;
-    background-color: #fff; /* Adjust the color if needed */
+    background-color: #fff;
 }
 
 .message-input {
-    width: 487px;
-    height: 217px;
+    width: 450px;
+    height: 175px;
     font-family: "Afacab", sans-serif;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5); /* 50% transparent white */
+    color: rgba(255, 255, 255, 0.5);
     background: none;
     border: none;
     outline: none;
     padding: 0;
-    resize: none; /* Disable resizing for consistent styling */
+    resize: none;
 }
 
 .input-container:nth-of-type(3) .input-underline {
-    width: 487px;
-    bottom: -10px; /* Place the underline slightly below the textarea */
+    width: 450px;
+    bottom: -10px;
 }
 
+.submit-button {
+    width: 450px;
+    height: 30px;
+    background-color: #0E6ADE;
+    color: #fff;
+    font-family: "Afacab", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #005bb5;
+    transform: translateY(-3px);
+}
+
+.submit-button:active {
+    background-color: #004a99;
+    transform: translateY(1px);
+}
+
+.contact-info {
+    position: absolute;
+    top: 445px;
+    left: 1090px;
+    font-family: "Afacab", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+}
+
+.email-underline {
+    position: absolute;
+    bottom: -15px;
+    width: 450px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.location {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    top: 50px;
+}

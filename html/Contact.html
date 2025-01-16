@@ -40,13 +40,14 @@
     </div>
   </header>
 
-  <div class="form-container">
+  <div class="form-container" action="YOUR_SERVER_ENDPOINT" method="POST">
     <div class="input-container">
       <input
               type="text"
               class="name-input"
               placeholder="Name"
               aria-label="Name"
+              required
       >
       <div class="input-underline"></div>
     </div>
@@ -57,6 +58,8 @@
               class="email-input"
               placeholder="Email"
               aria-label="Email"
+              required
+              title="Please enter a valid email address"
       >
       <div class="input-underline"></div>
     </div>
@@ -69,34 +72,27 @@
         ></textarea>
       <div class="input-underline"></div>
     </div>
-  </div>
 
-
-  <!--
-    <div class="contact-page">
-    <div class="contact-container">
-      <h1>Contact Me</h1>
-      <form action="#" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" required></textarea>
-
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
+    <button type="submit" class="submit-button">Submit</button>
 
     <div class="map-container">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2289.5460717696956!2d4.79494583127273!3d52.784289095558734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47cf4e258ca8ccdb%3A0x3272ca6e663a9bac!2sVonk%20-%20Schagen%20-%20Hofstraat!5e0!3m2!1sen!2snl!4v1727958950193!5m2!1sen!2snl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38609.83659537355!2d4.746499111250977!3d52.784238235760746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e52e7aa9ebf1%3A0x6d5ad67ab2b77a18!2sSchagen!5e0!3m2!1snl!2snl!4v1736325311261!5m2!1snl!2snl"
+              width="450"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
-  </div> -->
+  </div>
+
+  <div class="contact-info">
+    <p class="location">Schagen, Noord-Holland</p>
+    <p>Morris.Sprokholt@student.vonknh.nl</p>
+    <div class="email-underline"></div>
+  </div>
 
 
   <footer class="footer">

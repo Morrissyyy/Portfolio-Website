@@ -49,21 +49,21 @@ document.getElementById('skills-button').addEventListener('click', function(even
 
     // Scroll to the skills section
     const skillsSection = document.getElementById('skills-selection');
-    skillsSection.scrollIntoView({ behavior: 'smooth' });
+    skillsSection.scrollIntoView({behavior: 'smooth'});
 
     skillsSection.classList.add('animate');
 
-    // setTimeout(function() {
-    //     const skillBars = document.querySelectorAll('.skill-per');
-    //     skillBars.forEach(bar => {
-    //         bar.style.width = '0'; // Reset width to 0
-    //         bar.offsetHeight; // Trigger reflow
+    document.querySelector('.form-container').addEventListener('submit', function (e) {
+        e.preventDefault(); // Prevent the default form submission
+        const name = document.querySelector('.name-input').value;
+        const email = document.querySelector('.email-input').value;
+        const message = document.querySelector('.message-input').value;
 
-    //         // Set the final width first
-    //         bar.style.width = bar.getAttribute('data-per'); // Set width to the data-per value
+        console.log('Name:', name);
+        console.log('Email:', email);
+        console.log('Message:', message);
 
-    //         // Add the animation class
-    //         bar.classList.add('fill-animation');
-    //     });
-    // }, 500); // Adjust this delay as needed
-});
+        alert('Form submitted successfully!');
+    });
+}
+)
