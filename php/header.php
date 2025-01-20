@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Morris Sprokholt Portfolio</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/skills.css">
+    <link rel="stylesheet" href="../css/Experience.css">
+    <link rel="stylesheet" href="../css/Contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -29,9 +32,9 @@
     <div class="menu">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="../html/Skills.html">Skills</a></li>
-            <li><a href="../html/Experience.html">Experience</a></li>
-            <li><a href="../html/Contact.html">Contact</a></li>
+            <li><a href="../php/skills.php">Skills</a></li>
+            <li><a href="../php/experience.php">Experience</a></li>
+            <li><a href="../php/contact.php">Contact</a></li>
         </ul>
     </div>
 </header>
