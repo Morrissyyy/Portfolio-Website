@@ -1,0 +1,124 @@
+body {
+    background-image: url('../images/Background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.background-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.content-box {
+    background-color: #354549;
+    width: 90vw;
+    height: 90vh;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.about-text {
+    font-family: 'BhuTuka Expanded One', sans-serif;
+    font-size: 29rem;
+    color: white;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    top: 60%;
+    font-weight: 300;
+    opacity: 18%;
+}
+
+.content-box img {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 411px;
+    height: 550px;
+}
+
+.name-title {
+    color: white;
+    font-family: 'Amiri', serif;
+    font-size: 8rem;
+    font-weight: 300;
+    left: 27%;
+    top: -2vh;
+    position: absolute;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Amiri', serif;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 1;
+}
+
+.header a:nth-child(1) {
+    top: 10px;
+    left: 20px;
+    text-decoration: 3px underline;
+}
+
+.header a:nth-child(2) {
+    top: 10px;
+    left: 175px;
+}
+
+.header a:nth-child(3) {
+    top: 10px;
+    left: 350px;
+}
+
+.Introduction-text-1 {
+    color: white;
+    font-family: 'Besley', serif;
+    font-size: 1.2rem;
+    position: absolute;
+    width: 15vw;
+    left: 70%;
+    bottom: 20%;
+}
+
+.Introduction-text-2 {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    position: absolute;
+    width: 15vw;
+    left: 14%;
+    bottom: 45%;
+}
+
+.footer a {
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 92%
+}
+
+.footer a:nth-child(1) {
+    left: 76%;
+}
+
+.footer a:nth-child(2) {
+    left: 85%;
+}
+
+.footer a:nth-child(3) {
+    left: 92%;
+}

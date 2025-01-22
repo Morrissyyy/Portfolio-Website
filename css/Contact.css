@@ -24,14 +24,16 @@
     background: none;
     border: none;
     outline: none;
-    padding: 0;
+    padding-bottom: 20px;
 }
 
 .input-underline {
     position: absolute;
-    bottom: -10px;
+    bottom: 10px;
     width: 100%;
     height: 3px;
+    left: 0px;
+    padding: 0;
     background-color: #fff;
 }
 
@@ -45,13 +47,14 @@
     background: none;
     border: none;
     outline: none;
-    padding: 0;
+    padding-bottom: 20px;
     resize: none;
 }
 
 .input-container:nth-of-type(3) .input-underline {
     width: 450px;
-    bottom: -10px;
+    bottom: 10px;
+    left: 0px;
 }
 
 .submit-button {
