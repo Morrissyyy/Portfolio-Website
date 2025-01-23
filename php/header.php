@@ -31,7 +31,7 @@
     </div>
     <div class="menu">
         <ul>
-            <li><a href="../php/index.php">Home</a></li>
+            <li><a href="../php/Redesign-index.php">Home</a></li>
             <li><a href="../php/skills.php">Skills</a></li>
             <li><a href="../php/experience.php">Experience</a></li>
             <li><a href="../php/contact.php">Contact</a></li>

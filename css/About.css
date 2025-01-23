@@ -132,3 +132,30 @@ body {
     z-index: 1;
     position: relative;
 }
+.clock {
+    font-size: 45px;
+    color: #fff;
+    margin-left: 20px;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 20%;
+    display: flex;
+    gap: 5px;
+}
+
+.digit {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center;
+}
+
+.digit.morph-out {
+    transform: scaleY(0);
+    opacity: 0;
+}
+
+.digit.morph-in {
+    transform: scaleY(1);
+    opacity: 1;
+}

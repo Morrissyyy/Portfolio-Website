@@ -7,6 +7,8 @@ body {
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }
+
+
 .section {
     height: 100vh;
     scroll-snap-align: start;
@@ -25,23 +27,24 @@ body {
 
 .Introduction-1 {
     font-family: 'Barlow', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
-    max-width: 25%;
+    max-width: 30%;
     position: absolute;
-    top: 40%;
-    left: 15%;
+    top: 10%;
+    left: 20%;
 }
 
 .Content-image-1 {
-    height: 25vh;
+    height: 30vh;
     position: absolute;
     left: -45%;
     top: 15%;
 }
 
 .Introduction-text-1::after,
-.Introduction-text-2::after{
+.Introduction-text-2::after,
+.Introduction-text-3::after {
     content: '';
     position: absolute;
     left: 0;
@@ -53,18 +56,18 @@ body {
 
 .Introduction-2 {
     font-family: 'Barlow', sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
-    max-width: 25%;
+    max-width: 30%;
     position: absolute;
-    top: 15%;
-    left: 15%;
+    top: 50%;
+    left: 5%;
 }
 
 .Content-image-2 {
-    height: 25vh;
+    height: 35vh;
     position: absolute;
-    right: -35%;
+    right: -50%;
     top: 15%;
 }
 
@@ -120,6 +123,94 @@ body {
     color: white;
     opacity: 18%;
     position: absolute;
-    top: 70%;
+    top: 80%;
     font-weight: 300;
+}
+
+.side-image-2 {
+    height: 100%;
+    width: 35vw;
+    transform: scaleX(-1);
+}
+
+.Skills-text {
+    font-family: 'BhuTuka Expanded One', sans-serif;
+    font-size: 21rem;
+    color: white;
+    opacity: 18%;
+    position: absolute;
+    left: 34%;
+    font-weight: 300;
+    bottom: -22%;
+}
+
+.Introduction-3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    max-width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+.Content-image-3 {
+    height: 20vh;
+    width: 12vw;
+    position: absolute;
+    left: -45%;
+    top: 15%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer a {
+    color: white;
+    font-size: 2.3rem;
+    position: absolute;
+    bottom: -1%;
+    left: 92%;
+    z-index: 4;
+    font-family: 'Amiri', serif;
+    text-decoration: none;
+}
+
+.footer a:nth-child(1) {
+    left: 74%;
+}
+
+.footer a:nth-child(2) {
+    left: 83.5%;
+}
+
+.footer a:nth-child(3) {
+    left: 92%;
+}
+
+.clock {
+    font-size: 45px;
+    color: #fff;
+    margin-left: 20px;
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    top: 20%;
+    display: flex;
+    gap: 5px;
+}
+
+.digit {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform-origin: center;
+}
+
+.digit.morph-out {
+    transform: scaleY(0);
+    opacity: 0;
+}
+
+.digit.morph-in {
+    transform: scaleY(1);
+    opacity: 1;
 }
