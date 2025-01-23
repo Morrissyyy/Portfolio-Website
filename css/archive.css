@@ -30,13 +30,13 @@ body {
     max-width: 25%;
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 15%;
 }
 
 .Content-image-1 {
-    height: 20vh;
+    height: 25vh;
     position: absolute;
-    left: -35%;
+    left: -45%;
     top: 15%;
 }
 
@@ -58,13 +58,13 @@ body {
     max-width: 25%;
     position: absolute;
     top: 15%;
-    left: 1%;
+    left: 15%;
 }
 
 .Content-image-2 {
-    height: 20vh;
+    height: 25vh;
     position: absolute;
-    right: -25%;
+    right: -35%;
     top: 15%;
 }
 
