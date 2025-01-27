@@ -27,7 +27,7 @@ body {
 
 .about-text {
     font-family: 'BhuTuka Expanded One', sans-serif;
-    font-size: 27rem;
+    font-size: 40vh;
     color: white;
     text-align: center;
     margin: 0;
@@ -44,14 +44,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    width: 400px;
-    height: 540px;
+    width: 40vh;
+    height: 54vh;
 }
 
 .name-title {
     color: white;
     font-family: 'Amiri', serif;
-    font-size: 7rem;
+    font-size: 11vh;
     font-weight: 300;
     left: 30%;
     top: -3.5vh;
@@ -66,15 +66,15 @@ body {
     height: 10%;
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding-left: 20px;
+    gap: 1.5vw;
+    padding-left: 1vw;
 }
 
 .header a {
     color: white;
     text-decoration: none;
     font-family: 'Amiri', serif;
-    font-size: 2.5rem;
+    font-size: 3.75vh;
     z-index: 1;
     position: relative;
 }
@@ -83,9 +83,9 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 15px;
+    bottom: 1vh;
     width: 0;
-    height: 2px;
+    height: 0.2vh;
     background-color: white;
     transition: width 0.3s ease;
 }
@@ -97,7 +97,7 @@ body {
 .Introduction-text-1 {
     color: white;
     font-family: 'Besley', serif;
-    font-size: 1.2rem;
+    font-size: 2vh;
     position: absolute;
     width: 20vw;
     left: 72%;
@@ -107,55 +107,32 @@ body {
 .Introduction-text-2 {
     color: white;
     font-family: 'Barlow', sans-serif;
-    font-size: 1.3rem;
+    font-size: 2.1vh;
     position: absolute;
     width: 20vw;
     left: 10%;
     bottom: 40%;
 }
 
-.footer {
-    position: absolute;
-    bottom: -1%;
-    left: 72%;
-    display: flex;
-    text-align: center;
-    width: 100%;
-    gap: 50px;
-}
-
 .footer a {
     color: white;
-    text-decoration: none;
-    font-family: 'Amiri', serif;
-    font-size: 2.6rem;
-    z-index: 1;
-    position: relative;
-}
-.clock {
-    font-size: 45px;
-    color: #fff;
-    margin-left: 20px;
+    font-size: 3.45vh;
     position: absolute;
-    left: 55%;
-    transform: translateX(-50%);
-    top: 20%;
-    display: flex;
-    gap: 5px;
+    bottom: -1%;
+    left: 92%;
+    z-index: 4;
+    font-family: 'Amiri', serif;
+    text-decoration: none;
 }
 
-.digit {
-    display: inline-block;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    transform-origin: center;
+.footer a:nth-child(1) {
+    left: 74%;
 }
 
-.digit.morph-out {
-    transform: scaleY(0);
-    opacity: 0;
+.footer a:nth-child(2) {
+    left: 83.5%;
 }
 
-.digit.morph-in {
-    transform: scaleY(1);
-    opacity: 1;
+.footer a:nth-child(3) {
+    left: 92%;
 }

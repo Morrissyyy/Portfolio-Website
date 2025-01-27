@@ -20,15 +20,3 @@
 <body>
 
 <script src="../javascript/Redesign.js"></script>
-
-<header class="header">
-    <a href="../php/Redesign-index.php">About</a>
-    <a href="../php/Redesign-archive.php">Archive</a>
-    <a href="../php/Redesign-contact.php">Contact</a>
-
-
-    <div class="clock" id="clock">
-        <span class="digit" id="hours"></span>:<span class="digit" id="minutes"></span>:<span class="digit" id="seconds"></span>
-    </div>
-
-</header>

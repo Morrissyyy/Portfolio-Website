@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow: hidden;
 }
 
 .container {
@@ -26,8 +27,9 @@ body {
 }
 
 .Introduction-1 {
+    width: 30%;
     font-family: 'Barlow', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.8vh;
     color: white;
     max-width: 30%;
     position: absolute;
@@ -50,13 +52,13 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 3px;
+    height: 0.2vh;
     background-color: white;
 }
 
 .Introduction-2 {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.8vh;
     color: white;
     max-width: 30%;
     position: absolute;
@@ -89,15 +91,15 @@ body {
     height: 10%;
     display: flex;
     align-items: center;
-    gap: 50px;
-    padding-left: 20px;
+    gap: 1.5vw;
+    padding-left: 1vw;
 }
 
 .header a {
     color: white;
     text-decoration: none;
     font-family: 'Amiri', serif;
-    font-size: 2.5rem;
+    font-size: 3.75vh;
     z-index: 1;
     position: relative;
 }
@@ -106,9 +108,9 @@ body {
     content: "";
     position: absolute;
     left: 0;
-    bottom: 15px;
+    bottom: 1vh;
     width: 0;
-    height: 2px;
+    height: 0.2vh;
     background-color: white;
     transition: width 0.3s ease;
 }
@@ -119,7 +121,7 @@ body {
 
 .Experience-text {
     font-family: 'BhuTuka Expanded One', sans-serif;
-    font-size: 8rem;
+    font-size: 12vh;
     color: white;
     opacity: 18%;
     position: absolute;
@@ -135,7 +137,7 @@ body {
 
 .Skills-text {
     font-family: 'BhuTuka Expanded One', sans-serif;
-    font-size: 21rem;
+    font-size: 31.5vh;
     color: white;
     opacity: 18%;
     position: absolute;
@@ -146,7 +148,7 @@ body {
 
 .Introduction-3 {
     font-family: 'Barlow', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.8vh;
     color: white;
     max-width: 30%;
     position: absolute;
@@ -155,8 +157,7 @@ body {
 }
 
 .Content-image-3 {
-    height: 20vh;
-    width: 12vw;
+    height: 30vh;
     position: absolute;
     left: -45%;
     top: 15%;
@@ -166,7 +167,7 @@ body {
 
 .footer a {
     color: white;
-    font-size: 2.3rem;
+    font-size: 3.45vh;
     position: absolute;
     bottom: -1%;
     left: 92%;
@@ -185,32 +186,4 @@ body {
 
 .footer a:nth-child(3) {
     left: 92%;
-}
-
-.clock {
-    font-size: 45px;
-    color: #fff;
-    margin-left: 20px;
-    position: absolute;
-    left: 55%;
-    transform: translateX(-50%);
-    top: 20%;
-    display: flex;
-    gap: 5px;
-}
-
-.digit {
-    display: inline-block;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    transform-origin: center;
-}
-
-.digit.morph-out {
-    transform: scaleY(0);
-    opacity: 0;
-}
-
-.digit.morph-in {
-    transform: scaleY(1);
-    opacity: 1;
 }
