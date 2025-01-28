@@ -63,6 +63,7 @@
 <h1 class="Contact-title">Contact</h1>
 
 <img src="../images/Side-ferrari.PNG" alt="Side-ferrari" class="side-image">
+<div class="image-container"></div>
 
 <footer class="footer">
     <a href="" class="">Linkedin</a>
@@ -71,3 +72,4 @@
 </footer>
 
 <script src="../javascript/Redesign.js"></script>
+

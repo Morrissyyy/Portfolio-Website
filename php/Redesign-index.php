@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,16 +33,16 @@
         <img src="../images/island-rocks.jpeg" alt="island-rocks-image">
         <h1 class="about-text">About</h1>
         <h1 class="name-title">Morris Sprokholt</h1>
-        <p class="Introduction-text-1">I am a 22 year old student from the Netherlands. I am currently studying at the University of Applied Sciences in Amsterdam.
-            I am studying Communication and Multimedia Design. I am in my third year of the study and I am currently doing my internship at a company called "The Next Web".
-            I am a front-end developer and I am
-            currently working on the website of "The Next Web".</p>
-        <p class="Introduction-text-2">I am a 22 year old student from the Netherlands. I am currently studying at the University of Applied Sciences in Amsterdam.
-            I am studying Communication and Multimedia Design. I am in my third year of the study and I am  currently doing my internship at a company called "The Next Web".
-            I am a front-end developer and I am
-            currently working on the website of "The Next Web".</p>
+        <p class="Introduction-text-1">Hi, I’m Morris, a 17-year-old software development student from the Netherlands. During my studies, I’ve gained a solid foundation in programming,
+            but I’ve discovered that my true passion lies in designing websites.</p>
+        <p class="Introduction-text-2">Throughout my education, I’ve had the opportunity to work on various team projects, where I always gravitated toward the design aspects.
+            Whether it’s crafting layouts, choosing colors, or experimenting with typography, I love the process of creating visually appealing and user-friendly web designs.</p>
     </div>
 </div>
+
+
+<img src="../images/Background.jpeg" alt="background-image" class="background-image">
+<div class="image-container"></div>
 
 <footer class="footer">
     <a href="" class="">Linkedin</a>
@@ -52,3 +51,4 @@
 </footer>
 
 <script src="../javascript/Redesign.js"></script>
+</body>

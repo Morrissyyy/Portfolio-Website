@@ -19,7 +19,7 @@ body {
     background-color: #354549;
     width: 95vw;
     height: 92vh;
-    padding: 20px;
+    padding: 2vh 2vw;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
@@ -97,21 +97,21 @@ body {
 .Introduction-text-1 {
     color: white;
     font-family: 'Besley', serif;
-    font-size: 2vh;
+    font-size: 2.5vh;
     position: absolute;
-    width: 20vw;
-    left: 72%;
-    bottom: 30%;
+    width: 22vw;
+    left: 70%;
+    bottom: 33%;
 }
 
 .Introduction-text-2 {
     color: white;
     font-family: 'Barlow', sans-serif;
-    font-size: 2.1vh;
+    font-size: 2.6vh;
     position: absolute;
     width: 20vw;
-    left: 10%;
-    bottom: 40%;
+    left: 13%;
+    bottom: 35%;
 }
 
 .footer a {
@@ -135,4 +135,171 @@ body {
 
 .footer a:nth-child(3) {
     left: 92%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        background-color: #354549;
+        height: 100vh;
+        max-height: 700px;
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .image-container {
+        position: absolute;
+        width: 100vw;
+        height: 110vh;
+        object-fit: cover;
+        object-position: center;
+        top: 0;
+        background: linear-gradient(to bottom, rgba(53, 69, 73, 1) 0%, rgba(53, 69, 73, 1) 40%, rgba(53, 69, 73, 0) 100%), url(../images/island-rocks.jpeg);
+        background-size: cover;
+    }
+
+    .content-box img {
+        opacity: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .about-text {
+        font-family: 'BhuTuka Expanded One', sans-serif;
+        font-size: 20vh;
+        color: white;
+        text-align: center;
+        margin: 0;
+        width: 100%;
+        left: 0;
+        position: absolute;
+        top: 80%;
+        font-weight: 300;
+        opacity: 100%;
+        z-index: 1;
+    }
+
+    .header {
+        position: absolute;
+        top: 0;
+        left: 20%;
+        width: 70%;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        gap: 5vw;
+        padding-left: 1vw;
+        z-index: 5;
+    }
+
+    .header a {
+        color: white;
+        text-decoration: none;
+        font-family: 'Amiri', serif;
+        font-size: 4.5vh;
+        z-index: 5;
+        position: relative;
+        opacity: 60%;
+    }
+
+    .header::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: -17%;
+        z-index: 5;
+        width: 120%;
+        height: 3px;
+        opacity: 80%;
+        background-color: white;
+    }
+
+    .header a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 1vh;
+        width: 0;
+        height: 0.2vh;
+        background-color: white;
+        transition: width 0.3s ease;
+    }
+
+    .name-title {
+        color: white;
+        font-family: 'Amiri', serif;
+        font-size: 8.5vh;
+        font-weight: 500;
+        left: 17%;
+        top: 10vh;
+        position: absolute;
+        z-index: 2;
+        opacity: 80%;
+    }
+
+    .Introduction-text-1 {
+        color: white;
+        font-family: 'Besley', serif;
+        font-size: 2vh;
+        font-weight: 300;
+        position: absolute;
+        left: 10%;
+        width: 60vw;
+        bottom: 35%;
+        z-index: 2;
+        opacity: 80%;
+    }
+
+    .Introduction-text-1::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        width: 38%;
+        height: 3px;
+        opacity: 80%;
+        background-color: white;
+    }
+
+    .Introduction-text-2 {
+        opacity: 0;
+        top: 50%;
+        left: 50%;
+    }
+
+    .background-image {
+        position: absolute;
+        z-index: 2;
+        width: 40vw;
+        height: 20vw;
+        top: 48%;
+        left: 35%;
+        object-position: center;
+        object-fit: cover;
+        border: 0.5vw solid white; opacity: 80%;
+    }
+
+    .footer a {
+        color: #ffffff;
+        font-size: 3.45vh;
+        position: absolute;
+        bottom: -1%;
+        left: 92%;
+        z-index: 2;
+        font-family: 'Amiri', serif;
+        text-decoration: none;
+    }
+
+    .footer a:nth-child(1) {
+        left: 80vw;
+    }
+
+    .footer a:nth-child(2) {
+        left: 62vw;
+    }
+
+    .footer a:nth-child(3) {
+        left: 40vw;
+    }
+
 }
